@@ -36,10 +36,10 @@ export default function BeforeAfterMorph() {
   return (
     <section ref={sectionRef} className="py-24 px-6 md:px-12 lg:px-20 bg-background text-foreground overflow-hidden">
       <div className="max-w-7xl mx-auto morph-content mb-16 text-center">
-        <h2 className="font-heading text-[clamp(2rem,6vw,3.5rem)] mb-4">Von der harten Realität Standard-Carbons hin zur natürlichen Perfektion von Eschenholz.</h2>
+        <h2 className="font-heading text-[clamp(2rem,6vw,3.5rem)] mb-4">Die natürliche Perfektion von Eschenholz.</h2>
         <p className="font-body text-lg text-muted max-w-2xl mx-auto">
           Was sich nach 100 km anders anfühlt. Und warum.
-        </p>
+        </p>s
       </div>
 
       <div
