@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="font-heading font-bold text-xl tracking-widest uppercase cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
         esel
       </div>
-      <div>
+      <div className="hidden sm:block">
         <a href="#lead-form" className="bg-cta-bg text-cta-text px-6 py-3 rounded-full font-label font-medium text-sm hover:scale-[1.03] transition-transform inline-block group relative overflow-hidden">
           <span className="relative z-10">Jetzt Maßberatung buchen</span>
           <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
