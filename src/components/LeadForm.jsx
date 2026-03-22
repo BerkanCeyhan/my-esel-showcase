@@ -96,10 +96,11 @@ export default function LeadForm() {
                 
                 <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
               </button>
-<span className="relative z-10 font-mono text-[10px] text-white/70">🔒 Deine Daten sind sicher. Kein Spam. Jederzeit abmeldbar.</span>
+
             </form>
           )}
         </div>
+<span className="relative z-10 font-mono text-[10px] text-white/70">🔒 Deine Daten sind sicher. Kein Spam. Jederzeit abmeldbar.</span>
       </div>
     </section>
   );
