@@ -34,7 +34,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={container} className="relative min-h-[100dvh] flex items-end pb-20 md:pb-32 px-6 md:px-12 lg:px-20 overflow-hidden bg-surface">
+    <section ref={container} className="relative min-h-[100dvh] flex items-end pt-24 pb-20 md:pt-32 md:pb-32 px-6 md:px-12 lg:px-20 overflow-hidden bg-surface">
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img 
           src="https://cdn.shopify.com/s/files/1/1016/1999/0792/files/esel-wood-road-bike-outdoor-02.jpg?v=1771945145" 
