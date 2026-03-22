@@ -93,9 +93,10 @@ export default function LeadForm() {
 
               <button type="submit" className="form-element w-full mt-2 bg-cta-bg text-cta-text px-6 py-4 rounded-xl flex flex-col items-center justify-center gap-1.5 hover:scale-[1.02] transition-transform relative overflow-hidden group">
                 <span className="relative z-10 font-label font-bold text-lg">Maßberatung anfragen</span>
-                <span className="relative z-10 font-mono text-[10px] text-white/70">🔒 Deine Daten sind sicher. Kein Spam. Jederzeit abmeldbar.</span>
+                
                 <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
               </button>
+<span className="relative z-10 font-mono text-[10px] text-white/70">🔒 Deine Daten sind sicher. Kein Spam. Jederzeit abmeldbar.</span>
             </form>
           )}
         </div>
